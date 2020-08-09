@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:newlog/login_challenge.dart';
 import 'login_challenge.dart';
 
@@ -13,7 +12,7 @@ class LogInApp extends StatelessWidget {
     return MaterialApp(
       title: 'Login Challenge',
       theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
+        primarySwatch: Colors.blueGrey,
       ),
       debugShowCheckedModeBanner: false,
       home: LoginPage(),
