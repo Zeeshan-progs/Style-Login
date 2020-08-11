@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'login_challenge.dart';
@@ -170,7 +169,7 @@ class Register extends StatelessWidget {
                     Radius.circular(50),
                   ),
                 ),
-                color: Colors.indigo[900],
+                color: Colors.blueGrey,
                 textColor: Colors.white,
                 onPressed: () {},
                 child: Column(

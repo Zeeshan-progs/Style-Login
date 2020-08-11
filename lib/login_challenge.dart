@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
-import 'package:flutter/services.dart';
-
 import 'ForgetPassword.dart';
 import 'Register_Page.dart';
 
@@ -12,10 +10,6 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   @override
-  void initState() {
-    SystemChrome.setEnabledSystemUIOverlays([]);
-    super.initState();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -149,7 +143,7 @@ class _LoginPageState extends State<LoginPage> {
                       },
                       child: Text(
                         "Forget Password ?",
-                        style: TextStyle(color: Colors.blueGrey, fontSize: 18),
+                        style: TextStyle(color: Colors.pink, fontSize: 18),
                       ),
                     ),
                   ),
@@ -171,7 +165,7 @@ class _LoginPageState extends State<LoginPage> {
                 height: 50,
                 width: size.width / 1.8,
                 decoration: BoxDecoration(
-                  color: Colors.indigo[900],
+                  color: Colors.blueGrey,
                   borderRadius: BorderRadius.all(
                     Radius.circular(40),
                   ),
@@ -188,7 +182,9 @@ class _LoginPageState extends State<LoginPage> {
               ),
             ),
           ),
-          Spacer(),
+          SizedBox(
+            height: 100,
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
