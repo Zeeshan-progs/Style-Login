@@ -44,7 +44,9 @@ class Register extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(right: 28.0, top: 10),
+                  padding: const EdgeInsets.only(
+                    right: 28.0,
+                  ),
                   child: Align(
                     alignment: Alignment.bottomRight,
                     child: Text(
